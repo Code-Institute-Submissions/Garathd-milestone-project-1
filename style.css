@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-/*------Navigation-----*/
+/*-------General------*/
 
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.heading {
+    text-align: center;
+    font-family: inherit;
+    margin-bottom: 4%;
+}
+
+
+/*-----Navigation and Header-----*/
 
 .navbar {
     border-radius: 0px !important;
@@ -27,14 +35,11 @@ body {
     width: 100%;
 }
 
+
+/*----About Section---*/
+
 .about-section {
     margin-top: 2%;
-}
-
-.about-heading {
-    text-align: center;
-    font-family: inherit;
-    margin-bottom: 2%;
 }
 
 .about {
@@ -49,12 +54,34 @@ body {
 
 .about-image iframe {
     width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 
-/*---------footer-----*/
-.footer{
-    margin-top:2%;
-    background-color:#000;
-    height:300px;
+/*----Band Section-----*/
+
+.band-section {
+    margin-top: 2%;
+}
+
+.member {
+    padding: 2%;
+}
+
+.member-image img {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+/*-------Footer-----*/
+
+.footer {
+    margin-top: 2%;
+    background-color: #000;
+    height: 300px;
 }
