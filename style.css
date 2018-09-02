@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 
 /*------Navigation-----*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .navbar {
     border-radius: 0px !important;
     -moz-border-radius: 0px !important;
     -webkit-border-radius: 0px !important;
+}
+
+.navbar-inverse {
+    background: #000;
+    color: #fff;
+    margin-bottom: -2px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.about-section {
+    margin-top: 2%;
+}
+
+.about-heading {
+    text-align: center;
+    font-family: inherit;
+    margin-bottom: 2%;
+}
+
+.about {
+    padding: 5px;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.about-image {
+    padding: 5px;
+}
+
+.about-image iframe {
+    width: 100%;
+}
+
+
+/*---------footer-----*/
+.footer{
+    margin-top:2%;
+    background-color:#000;
+    height:300px;
 }
