@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Evo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------General------*/
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Evo", sans-serif;
 }
 
 .heading {
     text-align: center;
     font-family: inherit;
     margin-bottom: 4%;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 
@@ -23,12 +27,17 @@ body {
 
 .navbar-inverse {
     background: #000;
-    color: #fff;
     margin-bottom: -2px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.navbar-toggle {
+    margin-right: 0px;
 }
 
 .banner img {
@@ -39,13 +48,19 @@ body {
 /*----About Section---*/
 
 .about-section {
-    margin-top: 2%;
+    margin-top: 5%;
+}
+
+.about-section hr {
+    margin-top: 0px !important;
+    border-top: 3px solid #e90a0a;
+    width: 95px;
 }
 
 .about {
     padding: 5px;
     font-family: inherit;
-    font-size: 18px;
+    font-size: 17.5px;
 }
 
 .about-image {
@@ -63,11 +78,28 @@ body {
 /*----Band Section-----*/
 
 .band-section {
-    margin-top: 2%;
+    margin-top: 5%;
+}
+
+.band-heading {
+    font-family: inherit;
+    font-size: 18px;
+    text-align: center;
+}
+
+.band-section hr {
+    margin-top: 0px !important;
+    border-top: 3px solid #e90a0a;
+    width: 80px;
 }
 
 .member {
     padding: 2%;
+}
+
+.member-info p {
+    font-size: 16px;
+    text-align: center;
 }
 
 .member-image img {
@@ -77,11 +109,131 @@ body {
     -webkit-border-radius: 5px;
 }
 
+/*----Album Section---*/
+
+.album-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.album-section hr {
+    margin-top: 0px !important;
+    border-top: 3px solid #e90a0a;
+    width: 125px;
+}
+
+.album {
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.album-image {
+    text-align: center;
+    padding: 5px;
+}
+
+.album-image img {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.album-heading {
+    font-size: 14px;
+    height: 20px;
+}
+
+.album-info {
+    font-family: inherit;
+    text-align: center;
+}
 
 /*-------Footer-----*/
 
 .footer {
     margin-top: 2%;
-    background-color: #000;
-    height: 300px;
+    background-color: #222222;
+}
+
+.footer-video {
+    margin-bottom: 2%;
+}
+
+.footer-video iframe {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.footer-heading {
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    font-family: inherit;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 21px;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 2%;
+}
+
+.copyright-section hr {
+    margin-top: 0px;
+    border-top: 2px solid #ffffff;
+    width: 210px;
+}
+
+.social-section {
+    text-align: center;
+}
+
+.socials {
+    margin-top: -10px;
+    margin-bottom: 1%;
+}
+
+.socials a {
+    display: inline;
+}
+
+.socials img {
+    width: 25px;
+    margin: 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/*-----Contact Section----*/
+.contact-heading {
+    font-family: inherit;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+.form-control{
+    border:1px solid #aaa;
+    margin-bottom:1%;
 }
