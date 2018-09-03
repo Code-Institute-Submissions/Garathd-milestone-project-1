@@ -16,6 +16,23 @@ body {
     text-transform: uppercase;
 }
 
+.btn-primary {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
 
 /*-----Navigation and Header-----*/
 
@@ -33,7 +50,7 @@ body {
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-toggle {
@@ -46,25 +63,19 @@ body {
 
 
 /*----About Section---*/
-
 .about-section {
     margin-top: 5%;
-}
-
-.about-section hr {
-    margin-top: 0px !important;
-    border-top: 3px solid #e90a0a;
-    width: 95px;
+    margin-bottom: 5%;
 }
 
 .about {
-    padding: 5px;
+    padding: 15px;
     font-family: inherit;
     font-size: 17.5px;
 }
 
 .about-image {
-    padding: 5px;
+    padding: 15px;
 }
 
 .about-image iframe {
@@ -76,7 +87,6 @@ body {
 
 
 /*----Band Section-----*/
-
 .band-section {
     margin-top: 5%;
 }
@@ -85,12 +95,6 @@ body {
     font-family: inherit;
     font-size: 18px;
     text-align: center;
-}
-
-.band-section hr {
-    margin-top: 0px !important;
-    border-top: 3px solid #e90a0a;
-    width: 80px;
 }
 
 .member {
@@ -110,16 +114,9 @@ body {
 }
 
 /*----Album Section---*/
-
 .album-section {
     margin-top: 5%;
     margin-bottom: 5%;
-}
-
-.album-section hr {
-    margin-top: 0px !important;
-    border-top: 3px solid #e90a0a;
-    width: 125px;
 }
 
 .album {
@@ -150,7 +147,6 @@ body {
 }
 
 /*-------Footer-----*/
-
 .footer {
     margin-top: 2%;
     background-color: #222222;
@@ -182,12 +178,7 @@ body {
     font-family: inherit;
     font-weight: 600;
     margin-top: 2%;
-}
-
-.copyright-section hr {
-    margin-top: 0px;
-    border-top: 2px solid #ffffff;
-    width: 210px;
+    margin-bottom: 2%;
 }
 
 .social-section {
@@ -196,7 +187,7 @@ body {
 
 .socials {
     margin-top: -10px;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .socials a {
@@ -212,13 +203,6 @@ body {
 }
 
 /*-----Contact Section----*/
-.contact-heading {
-    font-family: inherit;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
 
 .center-form {
     padding-top: 10px;
@@ -226,14 +210,81 @@ body {
     max-width: 70%;
 }
 
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #e84610;
-    color: #fafafa;
+.contact-section{
+    margin-bottom: 5%;
 }
 
-.form-control{
-    border:1px solid #aaa;
-    margin-bottom:1%;
+button[type="submit"] {
+    margin-top: 5%;
+}
+
+.form-control {
+    border: 1px solid #aaa;
+    margin-bottom: 1%;
+}
+
+/*----Parallax----*/
+.parallax-wrapper {
+    height: 50vh;
+    overflow: hidden;
+    perspective: 2px;
+}
+
+.parallax-section {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.parallax-section p {
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.bg1::after {
+    background-image: url('http://1004estates.org/wp-content/uploads/2013/08/img_par_4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.bg2::after {
+    background-image: url('https://www.all-about-photo.com/images/aapcontests/header-aapmag1-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.custom-button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 3%;
+}
+
+.custom-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
 }
