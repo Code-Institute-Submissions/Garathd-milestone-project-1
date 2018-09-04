@@ -198,15 +198,15 @@ footer {
     -webkit-border-radius: 5px;
 }
 
-/*----Parallax----*/
+/*----Call to Action----*/
 
-.parallax-wrapper {
+.call-to-action-wrapper {
     height: 50vh;
     overflow: hidden;
     perspective: 2px;
 }
 
-.parallax-section {
+.call-to-action-section {
     position: relative;
     height: 50vh;
     display: flex;
@@ -218,13 +218,13 @@ footer {
     font-family: inherit;
 }
 
-.parallax-section p {
+.call-to-action-section p {
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 16px;
 }
 
-.parallax::after {
+.call-to-action::after {
     content: " ";
     position: absolute;
     top: 0;
@@ -319,7 +319,6 @@ input[type="text"] {
 }
 
 /*----Media Queries---*/
-
 @media only screen and (max-width: 992px) {
     .about,
     .about-image {
