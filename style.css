@@ -218,12 +218,19 @@ footer {
     font-family: inherit;
 }
 
+.call-to-action-center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .call-to-action-section p {
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 16px;
-    padding: 0 5% 0% 5%;
+    padding: 0;
     line-height: 25px;
+    font-weight: 500;
 }
 
 .call-to-action::after {
@@ -341,6 +348,15 @@ input[type="text"] {
     .copyright {
         margin-bottom: 7.5%;
     }
+
+    .call-to-action-section p {
+        padding: 0 5% 0 5%;
+    }
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    padding: 0 5% 0% 5%;
 
     .about,
     .about-image {
