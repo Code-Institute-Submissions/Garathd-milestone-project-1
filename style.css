@@ -54,13 +54,14 @@ body {
 }
 
 .about {
-    padding: 15px;
+    margin-left: 10%;
+    margin-top: 2%;
     font-family: inherit;
     font-size: 17.5px;
 }
 
 .about-image {
-    padding: 15px;
+    margin-right: 10%
 }
 
 .about-image iframe {
@@ -74,8 +75,7 @@ body {
 /*----Band Section-----*/
 
 .band-section {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
 }
 
 .band-heading {
@@ -103,8 +103,7 @@ body {
 /*----Album Section---*/
 
 .album-section {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%
 }
 
 .album {
@@ -138,9 +137,14 @@ body {
 
 /*-------Footer-----*/
 
-.footer {
-    margin-top: 2%;
+footer {
     background-color: #222222;
+}
+
+.footer {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .footer-video {
@@ -215,7 +219,8 @@ body {
 }
 
 .parallax-section p {
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 16px;
 }
 
@@ -270,11 +275,16 @@ body {
 }
 
 .contact-section {
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
 button[type="submit"] {
     margin-top: 5%;
+}
+
+input[type="text"] {
+    margin-bottom: 2%;
 }
 
 .form-control {
@@ -287,7 +297,7 @@ button[type="submit"] {
 .tour-section {
     font-family: inherit;
     text-align: center;
-    margin-top:5%;
+    margin: 5%;
 }
 
 .tour-date {
@@ -301,11 +311,37 @@ button[type="submit"] {
 .tour-details {
     border: 2px solid #ddd;
     color: #555555;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     padding: 5%;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
 
-.tour-tickets {}
+/*----Media Queries---*/
+
+@media only screen and (max-width: 992px) {
+    .about,
+    .about-image {
+        margin: 5%;
+    }
+
+    .member {
+        margin-bottom: 7.5%;
+    }
+
+    .copyright {
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .copyright {
+        margin-bottom: 7.5%;
+    }
+
+    .about,
+    .about-image {
+        margin: 1%;
+    }
+}
