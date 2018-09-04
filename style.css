@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Evo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Evo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------General------*/
 
@@ -14,24 +15,6 @@ body {
 
 .uppercase {
     text-transform: uppercase;
-}
-
-.btn-primary {
-    color: #000;
-    background-color: transparent;
-    border: 1px solid #000;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #000;
-    border: 1px solid #000;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
 }
 
 /*-----Navigation and Header-----*/
@@ -51,6 +34,7 @@ body {
     color: #fff;
     font-family: inherit;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .navbar-toggle {
@@ -63,6 +47,7 @@ body {
 
 
 /*----About Section---*/
+
 .about-section {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -87,8 +72,10 @@ body {
 
 
 /*----Band Section-----*/
+
 .band-section {
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .band-heading {
@@ -114,6 +101,7 @@ body {
 }
 
 /*----Album Section---*/
+
 .album-section {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -138,6 +126,8 @@ body {
 
 .album-heading {
     font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
     height: 20px;
 }
 
@@ -147,6 +137,7 @@ body {
 }
 
 /*-------Footer-----*/
+
 .footer {
     margin-top: 2%;
     background-color: #222222;
@@ -164,8 +155,9 @@ body {
 }
 
 .footer-heading {
-    margin-top: 7.5%;
-    margin-bottom: 7.5%;
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-family: inherit;
     color: #FFFFFF;
     text-align: center;
@@ -202,28 +194,8 @@ body {
     -webkit-border-radius: 5px;
 }
 
-/*-----Contact Section----*/
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-.contact-section{
-    margin-bottom: 5%;
-}
-
-button[type="submit"] {
-    margin-top: 5%;
-}
-
-.form-control {
-    border: 1px solid #aaa;
-    margin-bottom: 1%;
-}
-
 /*----Parallax----*/
+
 .parallax-wrapper {
     height: 50vh;
     overflow: hidden;
@@ -260,14 +232,14 @@ button[type="submit"] {
 }
 
 .bg1::after {
-    background-image: url('http://1004estates.org/wp-content/uploads/2013/08/img_par_4.jpg');
+    background-image: url('/images/parallax-one.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .bg2::after {
-    background-image: url('https://www.all-about-photo.com/images/aapcontests/header-aapmag1-3.jpg');
+    background-image: url('/images/parallax-two.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -288,3 +260,52 @@ button[type="submit"] {
     color: #000000;
     border: 1px solid #000000;
 }
+
+/*-----Contact Section----*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.contact-section {
+    margin-bottom: 5%;
+}
+
+button[type="submit"] {
+    margin-top: 5%;
+}
+
+.form-control {
+    border: 1px solid #aaa;
+    margin-bottom: 1%;
+}
+
+/*---Tour-Section---*/
+
+.tour-section {
+    font-family: inherit;
+    text-align: center;
+    margin-top:5%;
+}
+
+.tour-date {
+    font-size: 28px
+}
+
+.tour-location {
+    font-size: 21px;
+}
+
+.tour-details {
+    border: 2px solid #ddd;
+    color: #555555;
+    margin-bottom: 20%;
+    padding: 5%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.tour-tickets {}
