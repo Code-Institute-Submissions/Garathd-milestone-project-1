@@ -26,7 +26,8 @@ body {
 }
 
 .navbar-inverse {
-    background: #000;
+    background: #2b3743;
+    ;
     margin-bottom: -2px;
 }
 
@@ -38,13 +39,28 @@ body {
 }
 
 .navbar-toggle {
-    margin-right: 0px;
+    margin-right: 2px;
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #2d3b46;
+    border:1px solid #ffffff;
 }
 
 .banner img {
     width: 100%;
 }
 
+.navbar-header .brand {
+    padding: 0 10px;
+}
+
+.brand img {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 
 /*----About Section---*/
 
@@ -62,6 +78,10 @@ body {
 
 .about-image {
     margin-right: 10%
+}
+
+iframe {
+    border: none !important;
 }
 
 .about-image iframe {
@@ -138,7 +158,7 @@ body {
 /*-------Footer-----*/
 
 footer {
-    background-color: #222222;
+    background-color: #2d3b46;
 }
 
 .footer {
@@ -201,14 +221,14 @@ footer {
 /*----Call to Action----*/
 
 .call-to-action-wrapper {
-    height: 50vh;
+    height: 75vh;
     overflow: hidden;
     perspective: 2px;
 }
 
 .call-to-action-section {
     position: relative;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,11 +372,6 @@ input[type="text"] {
     .call-to-action-section p {
         padding: 0 5% 0 5%;
     }
-
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 16px;
-    padding: 0 5% 0% 5%;
 
     .about,
     .about-image {
