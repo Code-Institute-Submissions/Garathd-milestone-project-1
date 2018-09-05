@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
@@ -32,9 +33,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tour.html">Tour</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html" class="hvr-sweep-to-bottom">Home</a></li>
+                        <li><a href="tour.html" class="hvr-sweep-to-bottom">Tour</a></li>
+                        <li><a href="contact.html" class="hvr-sweep-to-bottom">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -43,19 +44,32 @@
         </header>
         <!-- Close Header -->
 
-        <!-- Tour Section -->
+        <!-- Call to Action Tour -->
+        <div class="call-to-action-two-wrapper">
+            <section class="call-to-action-two-section call-to-action bg1">
+                <div class="call-to-action-two-center">
+                    <h1 class="uppercase">World Tour</h1>
+                    <p>See Led Zeppelin in their final world tour</p>
+
+                </div>
+            </section>
+        </div>
+        <!-- Close Call to Action Tour -->
+
+        <!-- North American Tour Section -->
         <section class="container-fluid">
             <div class="tour-section">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="heading uppercase">North American Tour</h1>
+                        <h2 class="heading uppercase">North American Tour</h2>
                     </div>
                 </div>
 
-                <!-- Row Onw -->
+                <!-- Row One -->
                 <div class="row">
                     <div class="col-md-4">
                         <div class="tour-details">
+                            <div class="ticket"></div>
                             <h2 class="tour-date uppercase">Sep 04</h2>
                             <p class="tour-location">Minneapolis, Minnesota, USA</p>
                             <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
@@ -63,6 +77,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tour-details">
+                            <div class="ticket"></div>
                             <h2 class="tour-date uppercase">Sep 06</h2>
                             <p class="tour-location">Lincoln, Nebraska, USA</p>
                             <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
@@ -70,8 +85,92 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tour-details">
+                            <div class="ticket"></div>
                             <h2 class="tour-date uppercase">Sep 08</h2>
                             <p class="tour-location">Grand Fork, North Dakota, USA</p>
+                            <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Close Row One -->
+
+                <!-- Row Two -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="tour-details">
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 11</h2>
+                            <p class="tour-location">Sioux Falls, South Dakota, USA</p>
+                            <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tour-details">
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 13</h2>
+                            <p class="tour-location">Winnipeg, Manitoba, Canada</p>
+                            <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tour-details">
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 15</h2>
+                            <p class="tour-location">Austin, Texas, USA</p>
+                            <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Close Row Two -->
+
+            </div>
+        </section>
+        <!-- Close North American Tour Section -->
+
+        <!-- Call to Action Two -->
+        <div class="call-to-action-two-wrapper">
+            <section class="call-to-action-two-section call-to-action bg2">
+                <div class="call-to-action-two-center">
+                    <h1 class="uppercase">Contact Us</h1>
+                    <p>Want us to perform at events such as weddings and parties.</p>
+                    <a href="contact.html" class="btn btn-positve custom-button">Contact Now</a>
+                </div>
+            </section>
+        </div>
+        <!-- Close Call to Action Two -->
+
+        <!-- European Tour Section -->
+        <section class="container-fluid">
+            <div class="tour-section">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="heading uppercase">European Tour</h2>
+                    </div>
+                </div>
+
+                <!-- Row Onw -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="tour-details">
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 24</h2>
+                            <p class="tour-location">Dublin, Ireland</p>
+                            <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tour-details">
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 25</h2>
+                            <p class="tour-location">Belfast, Northern Ireland</p>
+                            <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tour-details">
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 27</h2>
+                            <p class="tour-location">Glasgow, Scotland</p>
                             <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
                         </div>
                     </div>
@@ -81,22 +180,25 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="tour-details">
-                            <h2 class="tour-date uppercase">Sep 11</h2>
-                            <p class="tour-location">Sioux Falls, South Dakota, USA</p>
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Sep 29</h2>
+                            <p class="tour-location">Manchester, England</p>
                             <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="tour-details">
-                            <h2 class="tour-date uppercase">Sep 13</h2>
-                            <p class="tour-location">Winnipeg, Manitoba, Canada</p>
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Nov 3</h2>
+                            <p class="tour-location">Madrid, Spain</p>
                             <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="tour-details">
-                            <h2 class="tour-date uppercase">Sep 15</h2>
-                            <p class="tour-location">Austin, Texas, USA</p>
+                            <div class="ticket"></div>
+                            <h2 class="tour-date uppercase">Nov 6</h2>
+                            <p class="tour-location">Milan, Italy</p>
                             <div class="tour-tickets"><button class="btn btn-primary">Buy Now</button></div>
                         </div>
                     </div>
@@ -104,7 +206,7 @@
 
             </div>
         </section>
-        <!-- Close Tour Section -->
+        <!-- European Tour Section -->
 
         <!-- Footer -->
         <footer>

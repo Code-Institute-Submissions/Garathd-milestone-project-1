@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
@@ -31,9 +32,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="tour.html">Tour</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html" class="hvr-sweep-to-bottom">Home</a></li>
+                        <li><a href="tour.html" class="hvr-sweep-to-bottom">Tour</a></li>
+                        <li><a href="contact.html" class="hvr-sweep-to-bottom">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,14 +43,22 @@
         </header>
         <!-- Close Header -->
 
+        <!-- Call to Action Contact -->
+        <div class="call-to-action-two-wrapper">
+            <section class="call-to-action-two-section call-to-action bg2">
+                <div class="call-to-action-two-center">
+                    <h1 class="uppercase">Contact Us</h1>
+                    <p>Want us to perform at events such as weddings and parties.</p>
+                </div>
+            </section>
+        </div>
+        <!-- Close Call to Action Contact -->
+
         <!-- Contact Section -->
-        <section class="container-fluid">
+        <div class="container-fluid">
             <div class="contact-section">
                 <div class="row">
                     <div class="col-md-12">
-                        <div>
-                            <h1 class="heading uppercase text-center">Contact Us</h1>
-                        </div>
                         <div class="center-form">
                             <form>
                                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
@@ -61,7 +70,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
         <!-- Close Contact Section -->
 
         <!-- Footer -->
