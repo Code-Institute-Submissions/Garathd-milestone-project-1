@@ -17,6 +17,17 @@ body {
     text-transform: uppercase;
 }
 
+.scrollTop {
+    float: right;
+    padding-bottom: 2%;
+}
+
+.fa {
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+}
+
 /*-----Navigation and Header-----*/
 
 .navbar {
@@ -49,7 +60,7 @@ body {
     border: 1px solid #ffffff;
 }
 
-.navbar-collapse.in{
+.navbar-collapse.in {
     overflow: hidden;
 }
 
