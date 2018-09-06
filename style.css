@@ -261,7 +261,7 @@ iframe {
 }
 
 .call-to-action-two-wrapper {
-    height: 40vh;
+    height: 70vh;
     overflow: hidden;
     perspective: 2px;
     width: 100%;
@@ -269,7 +269,7 @@ iframe {
 
 .call-to-action-two-section {
     position: relative;
-    height: 40vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
