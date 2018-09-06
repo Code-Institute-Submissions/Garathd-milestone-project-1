@@ -368,7 +368,7 @@ button[type="submit"] {
 }
 
 input[type="text"] {
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
 }
 
 .form-control {
@@ -425,6 +425,10 @@ input[type="text"] {
         margin: 5%;
     }
 
+    input[type="text"] {
+        margin-bottom: 2%;
+    }
+
     .member {
         margin-bottom: 7.5%;
     }
@@ -437,6 +441,10 @@ input[type="text"] {
 @media only screen and (max-width: 600px) {
     .copyright {
         margin-bottom: 7.5%;
+    }
+
+    input[type="text"] {
+        margin-bottom: 3%;
     }
 
     .call-to-action-section p,
