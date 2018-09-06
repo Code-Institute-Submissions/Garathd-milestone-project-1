@@ -175,69 +175,6 @@ iframe {
     text-align: center;
 }
 
-/*-------Footer-----*/
-
-footer {
-    background-color: #2d3b46;
-}
-
-.footer {
-    margin-top: 3%;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.footer-video {
-    margin-bottom: 2%;
-}
-
-.footer-video iframe {
-    width: 100%;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-.footer-heading {
-    text-transform: uppercase;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-family: inherit;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 21px;
-}
-
-.copyright {
-    text-align: center;
-    color: #ffffff;
-    font-family: inherit;
-    font-weight: 600;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.social-section {
-    text-align: center;
-}
-
-.socials {
-    margin-top: -10px;
-    margin-bottom: 2%;
-}
-
-.socials a {
-    display: inline;
-}
-
-.socials img {
-    width: 25px;
-    margin: 2px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
 /*----Call to Action----*/
 
 .call-to-action-wrapper {
@@ -298,6 +235,14 @@ footer {
     background-size: cover;
     background-position: top;
 }
+
+.bg3::after {
+    background-image: url('/images/parallax-three.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
 
 .custom-button {
     background-color: transparent;
@@ -417,6 +362,123 @@ input[type="text"] {
     margin-right: -35px;
 }
 
+/*-----Music Section-----*/
+
+.music-section {
+    margin-top: 5%;
+    padding: 0 5%;
+}
+
+.music-heading {
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+audio {
+    width: 100%;
+}
+
+.audio-section {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.audio-item {
+    margin-bottom: 5%;
+    background: rgb(86,116,143, 0.8);
+    padding: 5%;
+    color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 3px solid #2d3b46;
+}
+
+.music-heading {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.audio-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('/images/favicon.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+
+/*-------Footer-----*/
+
+footer {
+    background-color: #2d3b46;
+}
+
+.footer {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.footer-video {
+    margin-bottom: 2%;
+}
+
+.footer-video iframe {
+    width: 100%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.footer-heading {
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: inherit;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 21px;
+}
+
+.copyright {
+    text-align: center;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.social-section {
+    text-align: center;
+}
+
+.socials {
+    margin-top: -10px;
+    margin-bottom: 2%;
+}
+
+.socials a {
+    display: inline;
+}
+
+.socials img {
+    width: 25px;
+    margin: 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
 /*----Media Queries---*/
 
 @media only screen and (max-width: 992px) {
@@ -438,6 +500,13 @@ input[type="text"] {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .hvr-sweep-to-bottom:before {
+        background: rgba(255, 255, 255, 0.2);
+        height: 100%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .copyright {
         margin-bottom: 7.5%;
@@ -450,6 +519,19 @@ input[type="text"] {
     .call-to-action-section p,
     .call-to-action-two-section p {
         padding: 0 5% 0 5%;
+    }
+
+    .audio-item {
+        margin-bottom: 10%;
+    }
+
+    .music-heading {
+        margin-right: 10%;
+        font-size: 14px;
+    }
+
+    .music-section {
+        margin-top: 10%;
     }
 
     .about,
