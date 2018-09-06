@@ -261,7 +261,7 @@ iframe {
 }
 
 .call-to-action-two-wrapper {
-    height: 70vh;
+    height: 40vh;
     overflow: hidden;
     perspective: 2px;
     width: 100%;
@@ -269,7 +269,7 @@ iframe {
 
 .call-to-action-two-section {
     position: relative;
-    height: 70vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,6 +295,41 @@ iframe {
     text-transform: uppercase;
 }
 
+.call-to-action-contact-wrapper {
+    height: 50vh;
+    overflow: hidden;
+    perspective: 2px;
+    width: 100%;
+}
+
+.call-to-action-contact-section {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.call-to-action-contact-center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.call-to-action-contact-section p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 16px;
+    padding: 0;
+    line-height: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 /*-----Contact Section----*/
 
 .center-form {
@@ -308,7 +343,7 @@ iframe {
     margin-bottom: 5%;
 }
 
-button[type="submit"] {
+button[type="button"] {
     margin-top: 5%;
 }
 
@@ -385,7 +420,7 @@ audio {
 
 .audio-item {
     margin-bottom: 5%;
-    background: rgb(86,116,143, 0.8);
+    background: rgb(86, 116, 143, 0.8);
     padding: 5%;
     color: #fff;
     border-radius: 5px;
@@ -414,6 +449,29 @@ audio {
     margin-right: -10px;
 }
 
+/*------Modal--------*/
+.modal{
+    padding: 0px !important;
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #2b3743;
+    color: #FFF;
+}
+
+.modal-text{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:2%;
+}
+
+.close, .close:hover{
+    color:#ffffff;
+    opacity: 1;
+}
 
 /*-------Footer-----*/
 
@@ -519,6 +577,11 @@ footer {
     .call-to-action-section p,
     .call-to-action-two-section p {
         padding: 0 5% 0 5%;
+    }
+
+    .call-to-action-contact-wrapper,
+    .call-to-action-contact-section {
+        height: 70vh;
     }
 
     .audio-item {

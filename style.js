@@ -1,6 +1,4 @@
-// BY KAREN GRIGORYAN
 /* global $ */
-
 $(document).ready(function() {
 
   var scrollTop = $(".scrollTop");
@@ -13,3 +11,9 @@ $(document).ready(function() {
 
   });
 }); 
+
+function ClearFields() {
+     document.getElementById("fullname").value = "";
+     document.getElementById("emailaddress").value = "";
+     document.getElementById("message").value = "";
+}
