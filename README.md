@@ -14,7 +14,7 @@ The customer’s requirements are:
 -   Include audio and video clips
 -   Create Social Media Links
 
-Following on from this is what Led Zeppelin’s fan base want from their website experience below is a list of user stories.
+Following on from this is what Led Zeppelin’s fan base want from their website experience. Below is a list of user stories.
 
 -	As a fan, I want to be able to follow Led Zeppelin on Social Media
 -	As a fan, I want to be able to buy tickets to concerts
