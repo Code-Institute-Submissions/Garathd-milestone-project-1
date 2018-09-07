@@ -8,11 +8,11 @@ My UX process was to analyze the customers (Led Zeppelin’s) requirements and t
 
 The customer’s requirements are: 
 
-- For their fans to be able to hear clips from their back catalogue and potentially new material
-- To showcase their music and publicise their ability to perform at various functions
--	To incorporate pictures of the band into the website
--	Include audio and video clips
--	Create Social Media Links
+-   For their fans to be able to hear clips from their back catalogue and potentially new material
+-   To showcase their music and publicise their ability to perform at various functions
+-   To incorporate pictures of the band into the website
+-   Include audio and video clips
+-   Create Social Media Links
 
 Following on from this is what Led Zeppelin’s fan base want from their website experience below is a list of user stories.
 
@@ -70,7 +70,7 @@ My Content for the about section was inspired by the Led Zeppelin Wikipedia page
 
 ## Media
 
-The photos used in this site were all good from Google.  I had to use a bit of Photoshop to modify the pictures to work with the site. 
+The photos used in this site were all got from Google.  I had to use a bit of Photoshop to modify the pictures to work with the site. 
 
 ## Acknowledgements
 
