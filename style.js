@@ -1,4 +1,5 @@
 /* global $ */
+
 $(document).ready(function() {
 
   var scrollTop = $(".scrollTop");
@@ -12,8 +13,24 @@ $(document).ready(function() {
   });
 }); 
 
-function ClearFields() {
-     document.getElementById("fullname").value = "";
-     document.getElementById("emailaddress").value = "";
-     document.getElementById("message").value = "";
-}
+$(document).ready(function () {
+
+    $('#contact').validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 5
+                
+            },
+            emailaddress: {
+                required: true,
+                email: true
+            }
+            ,
+            message: {
+                required: true,
+                minlength: 10
+            }
+        }
+    });
+});

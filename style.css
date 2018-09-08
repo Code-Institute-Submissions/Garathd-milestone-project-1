@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Evo:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------General------*/
-
 body {
     font-family: "Evo", sans-serif;
 }
@@ -223,21 +222,21 @@ iframe {
 }
 
 .bg1::after {
-    background-image: url('/images/parallax-one.jpg');
+    background-image: url('images/parallax-one.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .bg2::after {
-    background-image: url('/images/parallax-two.jpg');
+    background-image: url('images/parallax-two.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .bg3::after {
-    background-image: url('/images/parallax-three.jpg');
+    background-image: url('images/parallax-three.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -388,7 +387,7 @@ input[type="text"] {
 .ticket {
     width: 65px;
     height: 65px;
-    background-image: url('/images/ticket-icon.png');
+    background-image: url('images/ticket-icon.png');
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -440,7 +439,7 @@ audio {
 .audio-icon {
     width: 30px;
     height: 30px;
-    background-image: url('/images/favicon.png');
+    background-image: url('images/favicon.png');
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
