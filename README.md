@@ -2,6 +2,7 @@
 
 This website is designed to show case the music and videos of Led Zeppelin.  Fans are able to purchase concert tickets as well as listen to some of Led Zeppelin’s greatest hits and purchase some of their most popular albums. Fans can also contact Led Zeppelin in order to request performances at events and parties
 
+
 ## UX
 
 My UX process was to analyze the customers (Led Zeppelin’s) requirements and try and think of different ways to incorporate this into not only just a website but a website that is user friendly and easy to navigate.  
@@ -30,6 +31,7 @@ Once I found 5 websites I liked or at least parts of the websites I liked I used
 
 The features of this website are listed below by each page (_There is some repeated features_): 
 
+
 **The Home Page**
 
 1.	Small Logo that’s consistently in the Navigation bar to always show the brand this is also displayed in the responsive Navigation bar.
@@ -38,17 +40,18 @@ The features of this website are listed below by each page (_There is some repea
 
 3.	About the band which consists of an introduction to who the band is
 
-4.	4 Videos of the band to showcase their ability to perform live and also their musical abilities
+4.	Four Videos of the band to showcase their ability to perform live and also their musical abilities
 
 5.	Pictures of the band along with name and instruments played
 
-6.	2 Call to Actions used for both the Tour and Contact Pages.  
+6.	Two Call to Actions used for both the Tour and Contact Pages.  
 
 7.	Most Popular Albums section with links to purchase the albums
 
 8.	Social Media Links for fans can follow the band on their favourite social media platforms or to see their videos on YouTube,
 
 9.	Scroll to Top button for easier site navigation
+
 
 **The Tour Page**
 
@@ -66,6 +69,7 @@ The features of this website are listed below by each page (_There is some repea
 
 7.  Three Videos in the footer
 
+
 **The Music Page**
 
 1.  Small Logo that’s consistently in the Navigation bar to always show the brand this is also displayed in the responsive Navigation bar.
@@ -79,6 +83,7 @@ The features of this website are listed below by each page (_There is some repea
 5.	Scroll to Top button for easier site navigation
 
 6.  Three Videos in the footer
+
 
 **The Contact Page**
 
@@ -96,8 +101,6 @@ The features of this website are listed below by each page (_There is some repea
 
 
 
-
-
 ## Technologies Used
 
 The technologies used in this project are HTML, CSS and JQuery and using the Bootstrap framework.  
@@ -107,6 +110,7 @@ I’m using JQuery to scroll to top of the page for the button I have located in
 
 In the future I want to implement real functionality to the contact form using PHP so it can really send emails.
 
+
 ## Testing
 
 This website was tested in Chrome, Firefox and Microsoft Edge as well as a Samsung Galaxy S5 and HTC Desire 530. For both mobile phones it was tested a lot in both portrait and landscape screen displays to make sure everything was responsive and displayed correctly. Anything that gave me any problems I used a few media queries to fix any issues and tested again. Using the 3 Desktop browsers I also constantly changed the width and height of the browser to see if everything was displayed correctly. 
@@ -115,6 +119,7 @@ When creating the audio files I initially had an issue with all the songs playin
 When testing with Chrome and Firefox I was initially getting console log errors but these errors were resolved when I disabled adblock.
 
 When testing my contact form I had a problem initially when submitting the form when the website was deployed to Github pages. The issue was a 405 error. This was resolved by removing _method="post"_ from my form code.
+
 
 ## Deployment
 
@@ -133,9 +138,11 @@ A live version of the project is available on GitHub pages at https://garathd.gi
 
 My Content for the about section was inspired by the Led Zeppelin Wikipedia page and I just took what was there and changed it into my own words.
 
+
 ## Media
 
 The photos used in this site were all got from Google.  I had to use a bit of Photoshop to modify the pictures to work with the site. 
+
 
 ## Acknowledgements
 
