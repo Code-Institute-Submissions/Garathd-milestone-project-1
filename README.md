@@ -50,14 +50,13 @@ Technologies Used
 
 The technologies used in this project are HTML, CSS and JQuery and using the Bootstrap framework.  
 I’m using Bootstrap to create a website that is responsive and clean as it has good inbuilt functionality that makes designing websites easier and quicker.
-I’m using JQuery for the contact form in order to clean the textfields upon form completion and also to scroll to top of the page for the button I have located in the footer. I find using regular html anchor tags sometimes problematic and not accurate so I chose this solution as it is consistent and smooth.
+
+I’m using JQuery to scroll to top of the page for the button I have located in the footer and also for the bootstrap responsive menu bar. I find using regular html anchor tags sometimes problematic and not accurate so I chose this solution as it is consistent and smooth. I'm also using an imported css effect called Hover.css which gives a nice animated effect on my menu bar links. This resource can be found at http://ianlunn.github.io/Hover/. I also use a JQuery Validation plugin that I use for my contact form. This resource can be found ar https://jqueryvalidation.org/
 
 ## Testing
 
 This website was tested in Chrome, Firefox and Microsoft Edge as well as a Samsung Galaxy S5 and HTC Desire 530. For both mobile phones it was tested a lot in both portrait and landscape screen displays to make sure everything was responsive and displayed correctly. Anything that gave me any problems I used a few media queries to fix any issues and tested again. Using the 3 Desktop browsers I also constantly changed the width and height of the browser to see if everything was displayed correctly. 
 When creating the audio files I initially had an issue with all the songs playing automatically when I navigated to the page. I was initially using Iframes and even setting the auto play to false or 0 it still played automatically. After a lot of research I discovered I can use html5 <audio> and this ended up working perfectly.
-
-A recent issue I’m still trying to figure out is the contact form. The way I have it designed at this moment in time is when a user fills out the form and press send it brings up a bootstrap modal window to say the email was sent. The issue I’m having is with validation if I set the send button to button=”submit” it prompts me that the required fields need to be filled in but when I press send then the modal appears regardless of whether the form has been validated or not. I was thinking of using either PHP or Angular to sort this out as this has worked for me in previous projects but I think this might be overkill and I don’t really want to use any more different technologies than I have to, so I’m trying to come up with a simpler way to achieve this or at the very most use JQuery which I have used already. 
 
 ## Deployment
 
