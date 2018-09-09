@@ -19,7 +19,7 @@ Following on from this is what Led Zeppelin’s fan base want from their website
 
 -	As a fan, I want to be able to follow Led Zeppelin on Social Media
 -	As a fan, I want to be able to buy tickets to concerts
--	As a fan , I want to be able to listen to their music and watch their videos
+-	As a fan, I want to be able to listen to their music and watch their videos
 -	As a fan, I want to be able to contact Led Zeppelin
 
 For my research I looked at various design trends and I thought I would go through one of my Wordpress websites and check out the latest themes and what was the most widely used and most popular layouts not just for music related websites but for every type of website. You never know what might inspire you. I also looked at what Metallica was doing and I really liked the way they used a lot of call to action sections in their website. 
