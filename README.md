@@ -116,6 +116,8 @@ In the future I want to implement real functionality to the contact form using P
 This website was tested in Chrome, Firefox and Microsoft Edge as well as a Samsung Galaxy S5 and HTC Desire 530. For both mobile phones it was tested a lot in both portrait and landscape screen displays to make sure everything was responsive and displayed correctly. Anything that gave me any problems I used a few media queries to fix any issues and tested again. Using the 3 Desktop browsers I also constantly changed the width and height of the browser to see if everything was displayed correctly. 
 When creating the audio files I initially had an issue with all the songs playing automatically when I navigated to the page. I was initially using Iframes and even setting the auto play to false or 0 it still played automatically. After a lot of research I discovered I can use html5 <audio> and this ended up working perfectly.
   
+An issue I had with CSS validation is warnings for the Chrome and Firefox css extensions *-moz-border-radius* and *-webkit-border-radius*
+
 When testing with Chrome and Firefox I was initially getting console log errors but these errors were resolved when I disabled adblock.
 
 When testing my contact form I had a problem initially when submitting the form when the website was deployed to Github pages. The issue was a 405 error. This was resolved by removing _method="post"_ from my form code.
