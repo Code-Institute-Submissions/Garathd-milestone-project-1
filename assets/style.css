@@ -222,21 +222,21 @@ iframe {
 }
 
 .bg1::after {
-    background-image: url('images/parallax-one.jpg');
+    background-image: url("/images/world.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .bg2::after {
-    background-image: url('images/parallax-two.jpg');
+    background-image: url('/images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .bg3::after {
-    background-image: url('images/parallax-three.jpg');
+    background-image: url('/images/music.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
