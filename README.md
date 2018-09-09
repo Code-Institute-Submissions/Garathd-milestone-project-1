@@ -125,7 +125,7 @@ When testing my contact form I had a problem initially when submitting the form 
 
 ## Deployment
 
-During development, all code was written in Cloud 9 and updates were saved and tested locally. Throughout the process I used Github to keep track of changes and to maintain version control in my codebase. Once development was completed I deployed the project to GitHub pages by taking the following steps: 
+During development, all code was written in Cloud 9 and updates were saved and tested locally. Throughout the process I used Github to keep track of changes and to maintain version control in my codebase. The devlopment version of my website is the same as the deployment version as the project isn't very complex. Once development was completed I deployed the project to GitHub pages by taking the following steps: 
 
 - Make the final commit to the repo
 - Click settings
